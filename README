@@ -1,0 +1,29 @@
+API server for IDDQD
+
+Requires python-tornado
+
+Clients can use the example scripts to download structures and information stored on an IDDQD server.
+
+Example uses:
+
+john@laptop:~$ getmolfile.sh example > example.mol
+
+john@laptop:~$ getmoltable.py example 
+Username:john
+Password:
+
+========================================
+	INFO FOR example (molid 53):
+  Uploaded by john on 2013-01-23
+  MW: 249.693 Formula: C13H12O2N1Cl1
+========================================
+           CC50
+          300.0         µM
+
+           EC50       HIVRTWT             
+          144.0         µM
+
+           EC50       HIVRTY181C          
+           0.01         µM
+
+
